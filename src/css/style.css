@@ -1,0 +1,98 @@
+.card-container {
+  min-height: 100vh;
+  background: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  max-width: 670px;
+  border-radius: 15px;
+  color: var(--dark-grayish-blue);
+  user-select: none;
+  transition: all ease-out 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card .perfume-img {
+  display: block;
+  max-width: 50%;
+  border-radius: 15px 0 0 15px;
+}
+.card .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 25px 0 25px;
+  gap: 10px;
+}
+
+.card .main-content .subtitle {
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card .main-content .title {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--very-dark-blue);
+}
+
+.card .main-content .description {
+  font-weight: 500;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card .main-content .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.card .main-content .price .final-price {
+  font-size: 38px;
+  margin-right: 10px;
+  font-weight: 800;
+  color: var(--dark-cyan);
+}
+
+.card .main-content .price .preview-price {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card .main-content #cart-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  width: 100%;
+  background: var(--dark-cyan);
+  border: none;
+  border-radius: 10px;
+  padding: 18px 20px;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 20px;
+  transition: background ease-in-out 0.2s;
+}
+
+.card .main-content #cart-button img {
+  width: 18px;
+  margin-right: 10px;
+}
+.card .main-content #cart-button:hover {
+  background: hsl(158, 36%, 24%);
+}

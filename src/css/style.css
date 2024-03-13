@@ -8,6 +8,7 @@ body {
   color: var(--clr-neutral-400);
   background: var(--clr-primary-200);
   user-select: none;
+  overflow: hidden;
 }
 
 .product {

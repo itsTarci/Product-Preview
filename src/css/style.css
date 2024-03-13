@@ -11,6 +11,7 @@
   justify-content: center;
   background: var(--white);
   max-width: 670px;
+  overflow: hidden;
   border-radius: 15px;
   color: var(--dark-grayish-blue);
   user-select: none;
@@ -22,7 +23,6 @@
 .card .perfume-img {
   display: block;
   max-width: 50%;
-  border-radius: 15px 0 0 15px;
 }
 .card .main-content {
   display: flex;

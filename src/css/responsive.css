@@ -1,5 +1,9 @@
-@media (max-width: 768px) {
-  .card .perfume-img {
-    display: none;
+@media (min-width: 600px) {
+  .product {
+    --content-padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .product .product__img img {
+    height: 100%;
   }
 }

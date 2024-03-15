@@ -1,8 +1,8 @@
 body {
   display: grid;
   place-content: center;
-  margin: 16px;
-  font-size: 14px;
+  margin: 1rem;
+  font-size: 0.875rem;
   font-weight: var(--fw-regular);
   font-family: var(--ff-fraun);
   color: var(--clr-neutral-400);
@@ -12,13 +12,13 @@ body {
 }
 
 .product {
-  --content-padding: 24px;
+  --content-padding: 1.5rem;
   --content-spacing: 1rem;
   display: grid;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   overflow: hidden;
   background: var(--clr-neutral-100);
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 
 .product__content {
@@ -28,7 +28,7 @@ body {
 }
 
 .product__type {
-  letter-spacing: 5px;
+  letter-spacing: 0.3125rem;
   text-transform: uppercase;
   font-family: var(--ff-montser);
 }
@@ -36,18 +36,18 @@ body {
 .product__name {
   color: var(--clr-neutral-900);
   font-weight: var(--fw-bold);
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .product__description {
   font-family: var(--ff-montser);
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .product .flex-group {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 .visually-hidden:not(:focus):not(:active) {
@@ -60,7 +60,7 @@ body {
   width: 1px;
 }
 .product .flex-group .product__current-price {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: var(--fw-bold);
   color: var(--clr-primary-400);
 }
@@ -69,21 +69,21 @@ body {
   border: none;
   display: inline-flex;
   cursor: pointer;
-  gap: 12px;
+  gap: 0.75rem;
   align-items: center;
   justify-content: center;
   color: var(--clr-neutral-100);
   font-family: var(--ff-montser);
   font-weight: var(--fw-bold);
-  padding: 15px 25px;
-  border-radius: 10px;
+  padding: 0.9375rem 1.5625rem;
+  border-radius: 0.625rem;
   background: var(--clr-primary-400);
   transition: background ease-in-out 500ms;
 }
 #cart-button[data-icon="shopping-cart"]::before {
   content: "";
-  width: 15px;
-  height: 16px;
+  width: 0.9375rem;
+  height: 1rem;
   background-image: url(../images/icon-cart.svg);
 }
 #cart-button:is(:hover, :focus) {
